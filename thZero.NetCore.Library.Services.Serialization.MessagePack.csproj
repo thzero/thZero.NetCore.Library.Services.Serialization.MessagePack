@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-	  <AssemblyName>thZero.NetCore.Library.Services.Serialization</AssemblyName>
-	  <PackageId>thZero.NetCore.Library.Services.Serialization</PackageId>
+	  <AssemblyName>thZero.NetCore.Library.Services.Serialization.MessagePack</AssemblyName>
+	  <PackageId>thZero.NetCore.Library.Services.Serialization.MessagePack</PackageId>
 	  <Description></Description>
 	  <Authors>thZero.com</Authors>
 	  <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
@@ -13,9 +13,9 @@
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	  <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-	  <PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Serialization</PackageProjectUrl>
+	  <PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Serialization.MessagePack</PackageProjectUrl>
 	  <RepositoryType>GitHub</RepositoryType>
-	  <RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Serialization</RepositoryUrl>
+	  <RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Serialization.MessagePack</RepositoryUrl>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -28,6 +28,7 @@
 	</ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\thZero.NetCore.Library.Services.Serialization\thZero.NetCore.Library.Services.Serialization.csproj" />
     <ProjectReference Include="..\thZero.NetCore.Library\thZero.NetCore.Library.csproj" />
   </ItemGroup>
 
