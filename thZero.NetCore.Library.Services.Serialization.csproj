@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+<<<<<<< HEAD:thZero.NetCore.Library.Services.Serialization.MessagePack.csproj
+	  <AssemblyName>thZero.MetalTitans.Library.Services.Serialization.MessagePack</AssemblyName>
+	  <PackageId>thZero.MetalTitans.Library.Services.Serialization.MessagePack</PackageId>
+=======
+	  <AssemblyName>thZero.NetCore.Library.Services.Serialization</AssemblyName>
+	  <PackageId>thZero.NetCore.Library.Services.Serialization</PackageId>
+>>>>>>> 8a15804da25a62261f2f9956adf7be75243d9450:thZero.NetCore.Library.Services.Serialization.csproj
+	  <Description></Description>
+	  <Authors>thZero.com</Authors>
+	  <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+	  <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+	  <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+	  <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+<<<<<<< HEAD:thZero.NetCore.Library.Services.Serialization.MessagePack.csproj
+	  <PackageProjectUrl>https://github.com/thzero/thZero.MetalTitans.Library.Services.Serialization.MessagePack</PackageProjectUrl>
+	  <RepositoryType>GitHub</RepositoryType>
+	  <RepositoryUrl>https://github.com/thzero/thZero.MetalTitans.Library.Services.Serialization.MessagePack</RepositoryUrl>
+=======
+	  <PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Serialization</PackageProjectUrl>
+	  <RepositoryType>GitHub</RepositoryType>
+	  <RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Serialization</RepositoryUrl>
+>>>>>>> 8a15804da25a62261f2f9956adf7be75243d9450:thZero.NetCore.Library.Services.Serialization.csproj
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="..\thZero.NetCore.Library\CommonAssemblyInfo.cs" Link="CommonAssemblyInfo.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MessagePack" Version="2.2.85" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+	</ItemGroup>
+
+  <ItemGroup>
+<<<<<<< HEAD:thZero.NetCore.Library.Services.Serialization.MessagePack.csproj
+    <ProjectReference Include="..\thZero.NetCore.Library.Services.Serialization\thZero.NetCore.Library.Services.Serialization.csproj" />
+=======
+>>>>>>> 8a15804da25a62261f2f9956adf7be75243d9450:thZero.NetCore.Library.Services.Serialization.csproj
+    <ProjectReference Include="..\thZero.NetCore.Library\thZero.NetCore.Library.csproj" />
+  </ItemGroup>
+
+</Project>
